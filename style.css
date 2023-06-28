@@ -129,6 +129,13 @@ body {
     height: 50px;
     margin-left:-10px;
   }
+  .home-sci {
+  position: absolute;
+  bottom: 20px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
   .home-sci a {
     position: relative;
     display: inline-flex;
