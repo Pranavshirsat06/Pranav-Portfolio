@@ -71,11 +71,11 @@ body {
 }
 @media (max-width: 952px) {
   .header h1 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
     color: #ededed;
     width: 200px;
-    margin-left: -190px;
+    margin-left: 10px;
     /* align-items: center;
     justify-content: center; */
   }
@@ -90,16 +90,19 @@ body {
     width: 85px;
   }
   .home1-content ol li {
-    display: block;
+    display: flex;
     list-style: numbers;
-    margin-left: 350px;
-    margin-top: -150px;
+    /* margin-left: 350px; */
+    margin-top: -140px;
     line-height: 1.5;
     /* margin: 200px 20px; */
     align-items: center;
-    height: 50%;
+    /* height: 50%; */
     color: #00abf0;
-    font-size: 35px;
+    font-size: 25px;
+    width: 290px;
+    height: 80px;
+    margin-left: 20px;
     justify-content: space-between;
     text-decoration: none;
     text-transform: uppercase;
