@@ -115,7 +115,7 @@ body {
   background-color: #ededed;
   border-color: #ededed;
 }
-@media (max-width: 952px) {
+@media (max-width: 958px) {
   .navbar a {
     display: none;
   }
