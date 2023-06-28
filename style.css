@@ -27,6 +27,7 @@ body {
   font-weight: 600;
   margin-right: 35px;
   transform: 0.3s;
+  line-height: 80px;
 }
 .navbar a:hover,
 .navbar a.active {
@@ -92,7 +93,7 @@ body {
 .home-sci {
   position: absolute;
   bottom: 40px;
-  width: 170px;
+  width: 230px;
   display: flex;
   justify-content: space-between;
 }
@@ -115,7 +116,18 @@ body {
   background-color: #ededed;
   border-color: #ededed;
 }
-@media (max-width: 958px) {
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 80px;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 952px) {
   .navbar a {
     display: none;
   }
@@ -127,15 +139,14 @@ body {
     justify-content: space-between;
     width: 315px;
     height: 50px;
-    margin-left:-10px;
   }
   .home-sci {
-  position: absolute;
-  bottom: 20px;
-  width: 170px;
-  display: flex;
-  justify-content: space-between;
-}
+    position: absolute;
+    bottom: 20px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+  }
   .home-sci a {
     position: relative;
     display: inline-flex;
@@ -152,4 +163,3 @@ body {
     transform: 0.3s;
   }
 }
- 
