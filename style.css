@@ -115,3 +115,15 @@ body {
   background-color: #ededed;
   border-color: #ededed;
 }
+@media (max-width: 952px) {
+  .navbar a {
+    font-size: 20px;
+    float: left;
+    display: inline-block;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .checkbtn {
+    display: block;
+  }
