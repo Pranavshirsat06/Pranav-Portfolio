@@ -119,7 +119,7 @@ body {
   .navbar a {
     font-size: 20px;
     float: left;
-    display: inline-block;
+    display: none;
   }
   .logo {
     font-size: 30px;
