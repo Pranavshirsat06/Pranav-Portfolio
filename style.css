@@ -62,7 +62,7 @@ body {
   color: #00abf0;
 }
 .home-content p {
-  font-size: 16px;
+  font-size: 22px;
   margin: 20px 0 40px;
 }
 .home-content .btn-box {
@@ -162,4 +162,10 @@ body {
     text-decoration: none;
     transform: 0.3s;
   }
+  .home-content p {
+  font-size: 14px;
+  margin: 10px 0 20px;
+    margin-right: 18px;
+  
+}
 }
