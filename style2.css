@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #081b29;
+  color: #ededed;
+}
+
+.section-contact {
+  padding: 4.2rem 0;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  /* margin-bottom: 9.6rem; */
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading {
+  font-size: 4.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 4.8rem;
+  margin-top: -2rem;
+}
+
+.project1 {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+  background-color: #e7f5ff;
+}
+.project1-content {
+  /* padding-top: 3.2rem; */
+  padding: 2.2rem 0rem 3.8rem 0.8rem;
+  margin-bottom: -4.2rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  color: #222;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.text {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.project1:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.5rem 3rem;
+  border-radius: 9px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #081b29;
+  margin-top: -1.2rem;
+  margin-bottom: 1.4rem;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:visited {
+  background-image: linear-gradient(to right, red, #e67e22);
+  cursor: pointer;
+  color: #ededed;
+}
+
+.Visit {
+  text-align: center;
+  margin-top: 2.8rem;
+}
+
+@media (max-width: 952px) {
+  .heading {
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4.8rem;
+    margin-top: -2rem;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    column-gap: 6.4rem;
+    row-gap: 1.4rem;
+    /* margin-bottom: 9.6rem; */
+  }
+
+  .project1 {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+    background-color: #e7f5ff;
+  }
+  .project1-content {
+    /* padding-top: 3.2rem; */
+    padding: 1.2rem 0rem 3.8rem 0.8rem;
+    margin-bottom: -4.8rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+  .text {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 3rem;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #081b29;
+    margin-top: -1.2rem;
+    margin-bottom: 1.4rem;
+    transition: all 0.3s;
+  }
+  .btn:hover,
+  .btn:visited {
+    background-image: linear-gradient(to right, red, #e67e22);
+    cursor: pointer;
+    color: #ededed;
+  }
+
+  .Visit {
+    text-align: center;
+    margin-top: 2.8rem;
+  }
+}
