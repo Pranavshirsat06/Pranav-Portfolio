@@ -26,14 +26,14 @@ body {
 }
 
 .grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .heading {
   font-size: 4.2rem;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 4.8rem;
+  margin-bottom: 3.8rem;
   margin-top: -2rem;
 }
 
@@ -50,6 +50,15 @@ body {
   margin-bottom: -4.2rem;
 }
 
+.row2 {
+  margin-top: 3.8rem;
+}
+
+.text {
+  padding-left: 1.2rem;
+  text-transform: uppercase;
+}
+
 .title {
   font-size: 1.6rem;
   color: #222;
@@ -63,7 +72,7 @@ body {
 }
 
 .project1:hover {
-  transform: translateY(-1.2rem);
+  transform: translateY(-0.8rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
@@ -84,9 +93,15 @@ body {
 
 .btn:hover,
 .btn:visited {
-  background-image: linear-gradient(to right, red, #e67e22);
+  background-image: linear-gradient(
+    to right,
+    #eb3941,
+    #f15e64,
+    #e14e53,
+    #e2373f
+  );
   cursor: pointer;
-  color: #ededed;
+  color: #fff;
 }
 
 .Visit {
@@ -94,7 +109,7 @@ body {
   margin-top: 2.8rem;
 }
 
-@media (max-width: 952px) {
+@media (max-width: 500px) {
   .heading {
     font-size: 3.2rem;
     font-weight: 600;
@@ -121,7 +136,11 @@ body {
   .project1-content {
     /* padding-top: 3.2rem; */
     padding: 1.2rem 0rem 3.8rem 0.8rem;
-    margin-bottom: -4.8rem;
+    /* margin-bottom: -4.8rem; */
+  }
+
+  .row2 {
+    margin-top: 1.4rem;
   }
 
   .title {
@@ -135,6 +154,11 @@ body {
     font-size: 1rem;
     color: #333;
     text-align: center;
+    /* padding-left: -9.5m; */
+  }
+  .text {
+    padding-right: 1.2rem;
+    text-transform: uppercase;
   }
 
   .btn,
